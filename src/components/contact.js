@@ -12,7 +12,7 @@ class Contact extends Component {
                        <img 
                          src='https://cdn.dribbble.com/users/1397292/screenshots/3855289/icon-1.gif'
                          alt='profile-pic'
-                         style={{height: '350px'}}
+                         style={{height: '400px'}}
                        />
                    </Cell>
                    <Cell col={6}>
