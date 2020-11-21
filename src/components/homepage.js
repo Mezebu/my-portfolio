@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell} from 'react-mdl';
+import Picture from './hpic.jpg';
 
 class Home extends Component {
     render() { 
@@ -7,7 +8,7 @@ class Home extends Component {
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className='home-grid'>
                     <Cell col={12}>
-                        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsRX6QzCX2rxKzfmn7VlsMYA0TYTW5Nt6o5g&usqp=CAU'
+                        <img src={Picture}
                         alt='home-avatar'
                         className='home-image'
                          />
