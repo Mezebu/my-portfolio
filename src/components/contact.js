@@ -10,9 +10,9 @@ class Contact extends Component {
                    <Cell col={6}>
                        <h2>Ezeigwe Henry</h2>
                        <img 
-                         src='https://cdn.dribbble.com/users/1397292/screenshots/3855289/icon-1.gif'
+                         src='https://cdn.dribbble.com/users/736825/screenshots/6483816/cloudinary_800x600-01.jpg'
                          alt='profile-pic'
-                         style={{height: '400px'}}
+                         style={{height: '75%', width: '90%'}}
                        />
                    </Cell>
                    <Cell col={6}>

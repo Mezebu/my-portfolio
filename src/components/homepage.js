@@ -18,7 +18,7 @@ class Home extends Component {
 
                              <hr />
 
-                             <p>HTML5/CSS | JavaScript | Bootstrap | React | Microsoft Office | ICT</p>
+                             <p>HTML5/CSS | JavaScript | Bootstrap | React </p>
 
                              <div className='social-links'>
 
