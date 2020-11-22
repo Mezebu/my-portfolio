@@ -154,3 +154,9 @@
   padding: 2em;
   border-radius: 20px;
 }
+
+/* Projects Page */
+
+.projects-grid {
+  display: flex;
+}
