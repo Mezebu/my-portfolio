@@ -11,6 +11,10 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+  font-size: 100%;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -19,6 +23,22 @@ img {
 @media screen and (max-width: 768px) {
   #primary {
     width: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  body {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 960px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1100px) {
+  body {
+    font-size: 1.5rem;
   }
 }
 
@@ -62,14 +82,13 @@ img {
 .home-image {
   border-radius: 50%;
   height: 250px;
-  /*padding-top: 5px;*/
   margin-top: 90px;
 }
 
 .banner-text {
   background-color: black;
   opacity: 0.4;
-  width: 50%;
+  width: 55%;
   margin: auto;
   border-radius: 10px;
 }
