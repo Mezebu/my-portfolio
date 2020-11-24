@@ -1,3 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  #primary {
+    width: 100%;
+  }
+}
+
 /* home page css */
 
 .header-color {
@@ -121,6 +145,11 @@
   margin: auto;
 }
 
+.contact-list-content {
+  font-size: 30px;
+  font-family: lato;
+}
+
 .contact-list i {
   font-size: 50px;
   padding-right: 5rem;
@@ -133,6 +162,8 @@
 
 .contact-body img {
   padding-top: 1em;
+  max-width: 100%;
+  height: auto;
 }
 
 /* resume page css */
