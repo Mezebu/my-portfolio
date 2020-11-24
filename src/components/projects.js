@@ -11,7 +11,7 @@ class Projects extends Component {
                 <div className='projects-grid'>
 
                 {/* ScoreCard */}
-                 <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '2rem'}}>
+                 <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '8px'}}>
                     <CardTitle style={{color: 'gray', height: '150px', background: '#fcb1b1'}}>ScoreCard</CardTitle>
                        <CardText>Created with CodeSandbox</CardText>
                           <CardActions border>
@@ -37,7 +37,7 @@ class Projects extends Component {
 
                 {/* Designs Page */}
 
-                <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '2rem'}}>
+                <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '8px'}}>
                   <CardTitle style={{color: 'black', height: '150px', background: 'orange'}}>Design</CardTitle>
                     <CardText>HTML/CSS</CardText>
                       <CardActions border>
@@ -57,7 +57,7 @@ class Projects extends Component {
                 
                 {/* Infuse Page */}                
 
-                <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '2rem'}}>
+                <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '8px'}}>
                   <CardTitle style={{color: 'black', height: '150px', background: 'red'}}>Infuse</CardTitle>
                     <CardText>HTML/CSS</CardText>
                       <CardActions border>
@@ -83,7 +83,7 @@ class Projects extends Component {
 
                      {/* thumbuz Page */}
 
-                     <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '2rem'}}>
+                     <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '8px'}}>
                        <CardTitle style={{color: 'black', height: '150px', background: 'gray'}}>Thumbuz</CardTitle>
                          <CardText>Login Page</CardText>
                            <CardActions border>
@@ -103,7 +103,7 @@ class Projects extends Component {
 
                      {/* Fox Page */}
 
-                     <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '2rem'}}>
+                     <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '8px'}}>
                        <CardTitle style={{color: 'black', height: '150px', background: 'blue'}}>Fox 4</CardTitle>
                          <CardText>HTML/CSS</CardText>
                            <CardActions border>
@@ -123,7 +123,7 @@ class Projects extends Component {
 
                      {/* Social  */}
 
-                     <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '2rem'}}>
+                     <Card shadow={5} style={{minWidth: '400', margin: 'auto', marginTop: '5px', borderRadius: '8px'}}>
                        <CardTitle style={{color: 'black', height: '150px', background: 'purple'}}>Social</CardTitle>
                          <CardText>HTML/CSS</CardText>
                            <CardActions border>
