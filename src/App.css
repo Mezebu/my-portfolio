@@ -20,28 +20,6 @@ img {
   height: auto;
 }
 
-@media screen and (max-width: 768px) {
-  #primary {
-    width: 100%;
-  }
-}
-
-@media (min-width: 640px) {
-  body {
-    font-size: 1rem;
-  }
-}
-@media (min-width: 960px) {
-  body {
-    font-size: 1.2rem;
-  }
-}
-@media (min-width: 1100px) {
-  body {
-    font-size: 1.5rem;
-  }
-}
-
 /* home page css */
 
 .header-color {
@@ -128,7 +106,7 @@ img {
 /* contact page */
 
 .contact-body {
-  margin: auto;
+  margin-right: 10px;
   justify-content: center;
   position: fixed;
   width: 100%;
@@ -143,30 +121,22 @@ img {
   background: linear-gradient(to right, #4a569d, #dc2424);
 }
 
-.contact-grid {
-  height: 550px;
-  width: 80%;
-  justify-content: center;
-  text-align: center;
-  background: white;
-  color: black;
-  margin-bottom: 20px;
-  border-radius: 20px;
-}
-
-.contact-grid h2 {
+.contact-body h2 {
   font-family: "lato", sans-serif;
+  color: white;
+  margin-left: 20px;
 }
 
-.contact-grid hr {
-  border-top: 2px dotted black;
-  width: 50%;
-  margin: auto;
+.contact-body hr {
+  border-top: 2px dotted white;
+  width: 35%;
+  margin-left: 20px;
 }
 
 .contact-list-content {
   font-size: 30px;
   font-family: lato;
+  color: white;
 }
 
 .contact-list i {
@@ -177,12 +147,6 @@ img {
 .contact-list a {
   text-decoration: none;
   color: inherit;
-}
-
-.contact-body img {
-  padding-top: 1em;
-  max-width: 100%;
-  height: auto;
 }
 
 /* resume page css */
