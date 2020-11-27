@@ -16,19 +16,19 @@ class Resume extends Component {
                             <img src={Picture} alt='avatar' style={{height: '200px', borderRadius: '100px'}}/>                             
                         </div>
                         
-                        <h2 style={{paddingTop: '2em'}}>Ezeigwe Henry</h2>
-                        <h4 style={{color: 'gray'}}>Computer Engineer</h4>
+                        <h2 style={{paddingTop: '2em', fontFamily: "montserrat"}}>Ezeigwe Henry</h2>
+                        <h4 style={{color: 'gray', fontFamily: "montserrat"}}>Computer Engineer</h4>
                         <hr style={{borderTop: '3px solid #c471ed', width: '50%'}}/>
-                        <p>
+                        <p style={{fontFamily: "montserrat"}}>
                             A computer engineer with good knowledge of web development, computer systems and softwares.
                             Dependable and organized team player with the ability to communicate effectively and efficiently.
                             Skilled at building relationships with employees across all levels of an organization 
                         </p>
                         <hr style={{borderTop: '3px solid #c471ed', width: '50%'}}/>
-                        <h5>Address</h5>
-                        <p>Lateef Adegboyega Street, Off Ago Palace Way, Okota, Lagos</p>
-                        <h5>Email</h5>
-                        <a style={{textDecoration: 'none', color: 'black'}} href='mailto:mezebu07@gmail.com' 
+                        <h5 style={{fontFamily: "montserrat"}}>Address</h5>
+                        <p style={{fontFamily: "montserrat"}}>Lateef Adegboyega Street, Off Ago Palace Way, Okota, Lagos</p>
+                        <h5 style={{fontFamily: "montserrat"}}>Email</h5>
+                        <a style={{textDecoration: 'none', color: 'black', fontFamily: "montserrat"}} href='mailto:mezebu07@gmail.com' 
                            rel='noreferrer noopener' 
                            target='_blank'>mezebu07@gmail.com
                         </a>
