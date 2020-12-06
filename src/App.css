@@ -223,6 +223,8 @@ img {
   display: none;
 }
 
+/* Media queries for mobile responsiveness */
+
 @media (max-width: 1024px) {
   .drawer-response {
     display: flex;
