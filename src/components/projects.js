@@ -14,7 +14,7 @@ class Projects extends Component {
     return (
       <Grid>
         <div className="projects-grid">
-          <Cell col={4} tablet={6} phone={2}>
+          <Cell col={4} tablet={6} phone={12}>
             {/* ScoreCard */}
             <Card
               shadow={5}
@@ -73,7 +73,7 @@ class Projects extends Component {
           </Cell>
 
           {/* Designs Page */}
-          <Cell col={4} tablet={6} phone={2}>
+          <Cell col={4} tablet={6} phone={12}>
             <Card
               shadow={5}
               style={{
@@ -120,8 +120,7 @@ class Projects extends Component {
           </Cell>
 
           {/* Infuse Page */}
-
-          <Cell col={4} tablet={6} phone={2}>
+          <Cell col={4} tablet={6} phone={12}>
             <Card
               shadow={5}
               style={{
@@ -165,7 +164,7 @@ class Projects extends Component {
         </div>
 
         <div className="projects-grid">
-          <Cell col={4} tablet={6} phone={2}>
+          <Cell col={4} tablet={6} phone={12}>
             {/* thumbuz Page */}
 
             <Card
@@ -209,9 +208,8 @@ class Projects extends Component {
             </Card>
           </Cell>
 
-          {/* Fox Page */}
-
-          <Cell col={4} tablet={6} phone={2}>
+          <Cell col={4} tablet={6} phone={12}>
+            {/* Fox Page */}
             <Card
               shadow={5}
               style={{
@@ -254,8 +252,7 @@ class Projects extends Component {
           </Cell>
 
           {/* Social  */}
-
-          <Cell col={4} tablet={6} phone={2}>
+          <Cell col={4} tablet={6} phone={12}>
             <Card
               shadow={5}
               style={{
