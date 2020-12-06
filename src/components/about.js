@@ -40,16 +40,6 @@ class About extends Component {
               Currently, i work as the systems manager in PCCCZ Nigeria Company
               LTD and I’m always interested in a challenge.
             </p>
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
-            <hr />
           </Cell>
         </Grid>
       </div>

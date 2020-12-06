@@ -193,6 +193,7 @@ img {
     #dc2424
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4a569d, #dc2424);
+  min-height: calc(100vh - 64px);
 }
 
 .aboutme-right-col {
@@ -216,4 +217,14 @@ img {
 
 .aboutme-right-col hr {
   border: none;
+}
+
+.drawer-response {
+  background: transparent;
+}
+
+@media (max-width: 1025px) {
+  .drawer-response {
+    display: flex;
+  }
 }
